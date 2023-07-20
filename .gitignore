@@ -1,3 +1,4 @@
-/.idea/
-/_site/
-/_bin/
+_bin
+_site
+deno.lock
+.idea
