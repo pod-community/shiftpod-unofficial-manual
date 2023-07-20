@@ -1,6 +1,6 @@
 # Setup Instructions
 
-⚠️ Important Notes before Setup:
+## Important Notes before Setup:
 
 > - Remove the Hub Support: The Hub support included in the package is for shipping purposes only and is not meant for setup. Remove it before starting the setup process.
 > - Tighten the Hubs: Make sure to tighten all the hubs on your ShiftPod. The easiest way to do this is when your ShiftPod is lying down. Turn all the hubs clockwise until they are snug.
