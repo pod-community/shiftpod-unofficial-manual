@@ -5,6 +5,7 @@ import jsx from "lume/plugins/jsx.ts";
 const site = lume({
   location: new URL("https://pod-community.github.io/shiftpod-unofficial-manual/"),
 });
+site.ignore("README.md", "CHANGELOG.md", "node_modules");
 site.use(notes());
 site.use(jsx());
 
