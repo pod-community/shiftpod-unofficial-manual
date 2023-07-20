@@ -35,12 +35,12 @@ jobs:
       - name: Create HTML with all pages
         uses: docker://pandoc/latex:2.9
         with:
-          args: --toc --output=tmp-all/index.html ${{ steps.files_list.outputs.files }}
+          args: --toc --standalone --output=_site/all.html ${{ steps.files_list.outputs.files }}
 
       - name: HTML to PDF converter
         uses: fifsky/html-to-pdf-action@master
         with:
-          htmlFile: ./tmp-all/index.html
+          htmlFile: ./_site/all.html
           outputFile: ./_site/all.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
