@@ -30,12 +30,12 @@ jobs:
         id: files_list
         run: |
           mkdir -p tmp-all
-          echo "files=$(find . -name '*.md')" > $GITHUB_OUTPUT
+          echo "files=$(find . -name '*.md' | grep -v 404.md | sort -n)" > $GITHUB_OUTPUT
 
       - name: Create HTML with all pages
         uses: docker://pandoc/latex:2.9
         with:
-          args: --output=tmp-all/index.html _site/index.html ${{ steps.files_list.outputs.files }}
+          args: --output=tmp-all/index.html ${{ steps.files_list.outputs.files }}
 
       - name: HTML to PDF converter
         uses: fifsky/html-to-pdf-action@master
