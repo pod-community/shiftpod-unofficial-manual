@@ -1,7 +1,10 @@
 # Shiftpod Unofficial Manual
 
 Unfortunately, as of July 2023, Shiftpods do not come with an official Manual. This site is a community 
-effort to create a manual for Shiftpods, and it's accessories.
+effort to create a manual for Shiftpods, and it's accessories. 
+
+While there are official videos on the [Shiftpod YouTube channel](https://www.youtube.com/@shiftpod136/videos), they can't be
+consumed while being off the grid. Meanwhile, this guide can be downloaded as a PDF, and read offline (work in progress).
 
 Feel free to submit content via [pull requests](https://github.com/pod-community/shiftpod-unofficial-manual/pulls), or [open an issue](https://github.com/pod-community/shiftpod-unofficial-manual/issues). 
 Make sure the content is original, or you have permission to use it. 
