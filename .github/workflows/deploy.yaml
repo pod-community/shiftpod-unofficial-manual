@@ -25,6 +25,12 @@ jobs:
       - name: Build site
         run: deno task build
 
+      - name: HTML website to PDF converter
+        uses: ferdinandkeller/html-to-pdf-action@v1
+        with:
+          source-path: '_site/'
+          destination-path: '_site/all.pdf'
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
@@ -36,12 +42,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-  converttopdf:
-    name: Build PDF
-    runs-on: ubuntu-latest
-    steps:
-      - name: HTML website to PDF converter
-        uses: ferdinandkeller/html-to-pdf-action@v1
-        with:
-          source-path: '_site/'
-          destination-path: './out.pdf'
