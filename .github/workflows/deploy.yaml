@@ -38,10 +38,12 @@ jobs:
           args: --output=tmp-all/index.html _site/index.html ${{ steps.files_list.outputs.files }}
 
       - name: HTML to PDF converter
-        uses: ferdinandkeller/html-to-pdf-action@v1
+        uses: fifsky/html-to-pdf-action@master
         with:
-          source-path: 'tmp-all'
-          destination-path: '_site/all.pdf'
+          htmlFile: ./tmp-all/index.html
+          outputFile: ./_site/all.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
