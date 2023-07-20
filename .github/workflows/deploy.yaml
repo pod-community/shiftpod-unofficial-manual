@@ -35,7 +35,7 @@ jobs:
       - name: Create HTML with all pages
         uses: docker://pandoc/latex:2.9
         with:
-          args: --output=tmp-all/index.html ${{ steps.files_list.outputs.files }}
+          args: --toc --output=tmp-all/index.html ${{ steps.files_list.outputs.files }}
 
       - name: HTML to PDF converter
         uses: fifsky/html-to-pdf-action@master
