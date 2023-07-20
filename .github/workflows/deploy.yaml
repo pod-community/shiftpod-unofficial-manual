@@ -43,5 +43,5 @@ jobs:
       - name: HTML website to PDF converter
         uses: ferdinandkeller/html-to-pdf-action@v1
         with:
-          - source-path: '_site/'
-          - destination-path: './out.pdf'
+          source-path: '_site/'
+          destination-path: './out.pdf'
