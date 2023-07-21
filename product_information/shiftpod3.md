@@ -19,6 +19,15 @@ Packaged wight: 68 lbs
 
 Floor zipper starts and ends next to one of the doors. That's where the U-shaped A/C can be placed. 
 
+### Attachment points
+
+There are 6 attachment points for tie lines in the middle of the walls, use carabiners and stakes. 
+
+In the corners there are 6 grommets (loops) to stake the tent to the ground. The grommets are around
+9/16 inches on the inside, and 1 1/4 inches on the outside. 
+
+![sp3-grommets.jpg](sp3-grommets.jpg)
+
 ## What's in the box
 
  - Shiftpod (secured with a white cog wheel that needs to be removed before assembly
