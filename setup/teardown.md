@@ -1,6 +1,6 @@
-# Packing instructions
+# Tear down and packing instructions
 
- ##   Before Packing:
+ ##   Before Tear down:
 -  Remove all stakes from the ground, except for one in windy conditions.
 -  Unzip the flooring, but keep the floor panel in place while packing.
 
