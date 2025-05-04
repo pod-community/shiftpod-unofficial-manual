@@ -1,7 +1,7 @@
 # Stakes
 
 The Shiftpod comes with steel stakes to secure the tent to the ground. For Burning Man, 
-people generally recommend to use Lag Screws of 14" or larger. 
+people generally recommend to use Lag Screws of 14" or longer. 
 
 ## Additional resources
 
